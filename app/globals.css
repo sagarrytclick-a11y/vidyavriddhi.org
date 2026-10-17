@@ -2,25 +2,92 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f172a;
+  color-scheme: light;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-open-sans);
+
+  --color-brand-navy: #16375e;
+  --color-brand-navy-700: #122f52;
+  --color-brand-navy-900: #0d2440;
+  --color-brand-orange: #f4701f;
+  --color-brand-orange-600: #e35f0c;
+  --color-brand-cream: #fdf5f0;
+  --color-brand-mist: #f6f7fa;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/*
+ * Two things to know about this file.
+ *
+ * 1. A `@layer base { ... }` block in this file gets flattened out of the
+ *    compiled stylesheet, so these rules reach the browser unlayered — and
+ *    unlayered rules win against Tailwind's `@layer utilities` no matter what
+ *    order they appear in. Anything declared here overrides utility classes.
+ *
+ * 2. That is why the scroll reveal is a keyframe animation rather than a
+ *    `transition`: an animation leaves `transition-*` utilities alone, so the
+ *    hover transitions on the same cards keep working. It also only animates
+ *    `transform` — Tailwind v4 drives hover moves with the separate `translate`,
+ *    `scale` and `rotate` properties, which compose with `transform`.
+ */
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-open-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Native <details> accordion: hide the default disclosure marker. */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/*
+ * `app/components/reveal.tsx` adds `is-visible` to the `.reveal-group` wrapper
+ * once it scrolls into view; every `.reveal` child inside then animates in.
+ * Stagger children with an inline `style={{ animationDelay: "120ms" }}`.
+ */
+.reveal {
+  opacity: 0;
+}
+
+.reveal-group.is-visible .reveal {
+  animation: reveal-in 0.7s ease-out both;
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Respect users who ask for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+  }
+
+  .reveal-group.is-visible .reveal {
+    animation: none;
+  }
+}
+
+/* Without JavaScript the reveal never fires, so show everything. */
+@media (scripting: none) {
+  .reveal {
+    opacity: 1;
+  }
 }

@@ -1,0 +1,31 @@
+Client logos for the "Our Clients" section
+==========================================
+
+Logo files live in this folder (assets/clients/).
+
+The image URL for each client is written by hand in components/verticals.php:
+
+  ['name' => 'Himalayan Education', 'logo' => 'assets/clients/himalayan-education.png'],
+
+So the filename here does not have to match the client name - whatever path you
+write in that file is what gets used. A full external URL also works:
+
+  ['name' => 'Some Client', 'logo' => 'https://example.com/logo.png'],
+
+Leave the logo empty ('') and the card shows the client's initials instead.
+
+Current files
+-------------
+  himalayan-education.png      -> Himalayan Education
+  apply-mbbs.png               -> Apply MBBS
+  education-times-abroad.png   -> Education Times Abroad
+  key2global.png               -> Key2Global
+  admissioncampus.png          -> DUPLICATE of education-times-abroad.png
+                                  (it is the ETSA logo, not Admission Campus)
+  admission-campus.png         -> STILL NEEDED for the Admission Campus card
+
+Tips
+----
+* any of these formats work:  .png   .svg   .webp   .jpg   .jpeg
+* PNG or SVG with a transparent background looks best
+* recommended size: around 400 x 200 px (wide logos are fine)
