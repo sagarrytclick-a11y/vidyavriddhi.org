@@ -5,13 +5,13 @@ import { siteConfig } from "../site-config";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How Vidya Vridhi collects, uses and protects the information submitted through our student lead generation website.",
+    "How Vidya Vriddhi collects, uses and protects the information submitted through our student lead generation website.",
   alternates: { canonical: "/privacy" },
   openGraph: {
     type: "article",
     title: "Privacy Policy",
     description:
-      "How Vidya Vridhi collects, uses and protects the information submitted through our student lead generation website.",
+      "How Vidya Vriddhi collects, uses and protects the information submitted through our student lead generation website.",
     url: "/privacy",
   },
 };
@@ -118,7 +118,7 @@ export default function PrivacyPolicyPage() {
       eyebrow="Legal"
       title="Privacy Policy"
       updated="17 October 2026"
-      intro="This policy explains what information Vidya Vridhi collects through this website, why we collect it, how we use and share it, and the choices you have. It applies to enquiries submitted through our forms and to general use of the site."
+      intro="This policy explains what information Vidya Vriddhi collects through this website, why we collect it, how we use and share it, and the choices you have. It applies to enquiries submitted through our forms and to general use of the site."
       sections={sections}
       path="/privacy"
     />

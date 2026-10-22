@@ -7,7 +7,7 @@ import { ArrowRightIcon, PhoneIcon } from "./components/icons";
 export const metadata = {
   title: "Page not found",
   description:
-    "That page could not be found. Explore student lead generation services, our clients and study areas from the Vidya Vridhi home page.",
+    "That page could not be found. Explore student lead generation services, our clients and study areas from the Vidya Vriddhi home page.",
 };
 
 export default function NotFound() {

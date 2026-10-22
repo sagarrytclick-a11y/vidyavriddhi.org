@@ -1,6 +1,6 @@
-# Vidya Vridhi
+# Vidya Vriddhi
 
-The website for Vidya Vridhi, an education marketing agency. It includes the
+The website for Vidya Vriddhi, an education marketing agency. It includes the
 company website, client and service information, legal pages, SEO metadata, and
 a campaign enquiry form that sends submissions by email.
 

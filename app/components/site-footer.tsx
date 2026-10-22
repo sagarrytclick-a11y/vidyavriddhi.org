@@ -110,7 +110,7 @@ export default function SiteFooter() {
         <div className="mt-10 border-t border-white/10 pt-6">
           <p className="text-[11px] leading-relaxed text-slate-400">
             <span className="font-semibold text-slate-300">Disclaimer:</span>{" "}
-            Vidya Vridhi is an independent education marketing and student
+            Vidya Vriddhi is an independent education marketing and student
             lead-generation platform, not affiliated with or an official
             representative of any university, college, examination body or
             government authority referenced on this website. Admission decisions

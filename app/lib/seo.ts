@@ -13,11 +13,11 @@ import { siteConfig } from "../site-config";
  * 59 characters, so it survives a Google SERP without truncation.
  */
 export const defaultTitle =
-  "Student Lead Generation for Education Brands | Vidya Vridhi";
+  "Student Lead Generation for Education Brands | Vidya Vriddhi";
 
 /** ~148 characters — long enough to sell, short enough not to be cut off. */
 export const defaultDescription =
-  "Vidya Vridhi plans student lead generation for education brands in India — website enquiries, SEO, Google Ads and Meta campaigns in one measurable funnel.";
+  "Vidya Vriddhi plans student lead generation for education brands in India — website enquiries, SEO, Google Ads and Meta campaigns in one measurable funnel.";
 
 /**
  * Google ignores `keywords`, but Bing, Yandex and most site auditors still read
@@ -40,7 +40,7 @@ export const keywords = [
 
 /** Long-form positioning, used where search engines want a description. */
 export const organizationDescription =
-  "Vidya Vridhi is an education marketing and student lead-generation platform for universities, colleges, healthcare and professional-course institutions. It brings website enquiry capture, organic search, Google Ads, Meta campaigns and education-partner sources into one planned, source-aware student acquisition funnel.";
+  "Vidya Vriddhi is an education marketing and student lead-generation platform for universities, colleges, healthcare and professional-course institutions. It brings website enquiry capture, organic search, Google Ads, Meta campaigns and education-partner sources into one planned, source-aware student acquisition funnel.";
 
 /**
  * What the business is knowledgeable about — read by Google's Knowledge Graph

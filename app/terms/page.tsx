@@ -5,13 +5,13 @@ import { siteConfig } from "../site-config";
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "The terms that apply to using the Vidya Vridhi website and submitting a student enquiry or campaign request.",
+    "The terms that apply to using the Vidya Vriddhi website and submitting a student enquiry or campaign request.",
   alternates: { canonical: "/terms" },
   openGraph: {
     type: "article",
     title: "Terms & Conditions",
     description:
-      "The terms that apply to using the Vidya Vridhi website and submitting a student enquiry or campaign request.",
+      "The terms that apply to using the Vidya Vriddhi website and submitting a student enquiry or campaign request.",
     url: "/terms",
   },
 };
@@ -24,7 +24,7 @@ const sections: LegalSection[] = [
     ],
   },
   {
-    heading: "2. About Vidya Vridhi",
+    heading: "2. About Vidya Vriddhi",
     paragraphs: [
       `${siteConfig.name} is an education marketing and student lead-generation platform operated as a unit of JP Technologies, with its office at ${siteConfig.address}`,
       "We are an independent platform. We are not affiliated with, and do not act as an official representative of, any university, college, examination body or government authority referenced on this website. Admission decisions rest solely with the respective institutions.",
@@ -61,7 +61,7 @@ const sections: LegalSection[] = [
   {
     heading: "7. Intellectual property",
     paragraphs: [
-      "The website design, text, graphics, layout and the Vidya Vridhi name and logo are owned by, or licensed to, Vidya Vridhi and may not be reproduced without permission. Client and partner logos remain the property of their respective owners and are used to identify the organisations we work with.",
+      "The website design, text, graphics, layout and the Vidya Vriddhi name and logo are owned by, or licensed to, Vidya Vriddhi and may not be reproduced without permission. Client and partner logos remain the property of their respective owners and are used to identify the organisations we work with.",
     ],
   },
   {
@@ -73,7 +73,7 @@ const sections: LegalSection[] = [
   {
     heading: "9. Limitation of liability",
     paragraphs: [
-      "To the extent permitted by law, Vidya Vridhi is not liable for any indirect, incidental or consequential loss, or for any loss of profit, business, goodwill or data, arising from your use of this website or from any campaign or admission outcome. Nothing in these terms limits liability that cannot lawfully be limited.",
+      "To the extent permitted by law, Vidya Vriddhi is not liable for any indirect, incidental or consequential loss, or for any loss of profit, business, goodwill or data, arising from your use of this website or from any campaign or admission outcome. Nothing in these terms limits liability that cannot lawfully be limited.",
     ],
   },
   {
@@ -102,7 +102,7 @@ export default function TermsPage() {
       eyebrow="Legal"
       title="Terms & Conditions"
       updated="17 October 2026"
-      intro="These terms govern your use of the Vidya Vridhi website and any enquiry or campaign request you submit through it. Please read them together with our Privacy Policy and Cookie Policy."
+      intro="These terms govern your use of the Vidya Vriddhi website and any enquiry or campaign request you submit through it. Please read them together with our Privacy Policy and Cookie Policy."
       sections={sections}
       path="/terms"
     />

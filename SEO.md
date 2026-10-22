@@ -15,7 +15,7 @@ Lighthouse: **SEO 100 · Best Practices 100 · Accessibility 97**.
 
 | Item | Where |
 | --- | --- |
-| Keyword-first title, 59 chars, brand template `%s \| Vidya Vridhi` | `layout.tsx` + `lib/seo.ts` |
+| Keyword-first title, 59 chars, brand template `%s \| Vidya Vriddhi` | `layout.tsx` + `lib/seo.ts` |
 | ~148-character meta description | `lib/seo.ts` |
 | `keywords`, `authors`, `creator`, `publisher`, `category`, `applicationName` | `layout.tsx` |
 | `robots` + `googlebot` with `max-image-preview:large`, `max-snippet:-1` | `layout.tsx` |

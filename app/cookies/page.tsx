@@ -5,13 +5,13 @@ import { siteConfig } from "../site-config";
 export const metadata: Metadata = {
   title: "Cookie Policy",
   description:
-    "How Vidya Vridhi uses cookies and similar technologies, and how you can control them.",
+    "How Vidya Vriddhi uses cookies and similar technologies, and how you can control them.",
   alternates: { canonical: "/cookies" },
   openGraph: {
     type: "article",
     title: "Cookie Policy",
     description:
-      "How Vidya Vridhi uses cookies and similar technologies, and how you can control them.",
+      "How Vidya Vriddhi uses cookies and similar technologies, and how you can control them.",
     url: "/cookies",
   },
 };
@@ -75,7 +75,7 @@ export default function CookiePolicyPage() {
       eyebrow="Legal"
       title="Cookie Policy"
       updated="17 October 2026"
-      intro="This policy explains how Vidya Vridhi uses cookies and similar technologies on this website, what they are used for, and how you can control them. It should be read alongside our Privacy Policy."
+      intro="This policy explains how Vidya Vriddhi uses cookies and similar technologies on this website, what they are used for, and how you can control them. It should be read alongside our Privacy Policy."
       sections={sections}
       path="/cookies"
     />

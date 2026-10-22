@@ -23,7 +23,7 @@ export default function Hero() {
 
           <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
             Bring website enquiries, organic search, Google Ads and Meta
-            campaigns into one education-focused plan. Vidya Vridhi helps
+            campaigns into one education-focused plan. Vidya Vriddhi helps
             institutions attract prospective students, capture their interest and
             see which channels are contributing.
           </p>

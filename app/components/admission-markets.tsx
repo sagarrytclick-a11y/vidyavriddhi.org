@@ -20,7 +20,7 @@ export default function AdmissionMarkets() {
           </h2>
 
           <p className="reveal mx-auto mt-6 max-w-2xl text-center text-base leading-relaxed text-slate-600" style={{ animationDelay: "90ms" }}>
-            Vidya Vridhi connects institutions with students across Tier 1, Tier 2
+            Vidya Vriddhi connects institutions with students across Tier 1, Tier 2
             and Tier 3 cities throughout India.
           </p>
 

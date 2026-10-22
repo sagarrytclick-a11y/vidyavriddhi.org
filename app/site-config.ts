@@ -1,5 +1,5 @@
 /**
- * Business details for Vidya Vridhi.
+ * Business details for Vidya Vriddhi.
  *
  * Mirrors the PHP `site_identity.php` so the Next.js site and any PHP tooling
  * agree on the same values. Everything contact-related on the site reads from
@@ -9,7 +9,7 @@
  * to be confirmed before going live — worth double-checking.
  */
 const identity = {
-  name: "Vidya Vridhi",
+  name: "Vidya Vriddhi",
   tagline: "Where Demand Meets Delivery.",
   email: "Abhishek@vidyavriddhi.com",
 

@@ -45,11 +45,11 @@ export default function WhyChooseUs() {
       <div className="mx-auto max-w-7xl px-6">
         <Reveal>
           <h2 className="reveal text-center text-2xl font-black uppercase tracking-tight text-brand-orange sm:text-3xl lg:text-4xl xl:text-[2.75rem]">
-            Why education brands choose Vidya Vridhi
+            Why education brands choose Vidya Vriddhi
           </h2>
 
           <p className="reveal mx-auto mt-6 max-w-2xl text-center text-base leading-relaxed text-slate-600" style={{ animationDelay: "90ms" }}>
-            Vidya Vridhi brings student discovery and enquiry capture into a
+            Vidya Vriddhi brings student discovery and enquiry capture into a
             channel plan your team can act on.
           </p>
 

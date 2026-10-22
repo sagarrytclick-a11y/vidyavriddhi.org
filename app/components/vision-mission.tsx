@@ -29,7 +29,7 @@ export default function VisionMission() {
             className="reveal mx-auto mt-6 max-w-3xl text-center text-base leading-relaxed text-slate-600"
             style={{ animationDelay: "90ms" }}
           >
-            Vidya Vridhi helps education teams bring prospective learners into one
+            Vidya Vriddhi helps education teams bring prospective learners into one
             measurable acquisition journey. We combine website conversion paths,
             SEO-led discovery, Google Ads, Meta campaigns and relevant education
             partners around each program, location and intake.
